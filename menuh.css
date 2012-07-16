@@ -1,0 +1,116 @@
+
+#menuh-container
+	{
+	top: 1em;
+	left: 1em;
+	}
+
+#menuh
+	{
+	float:left;
+	}
+		
+#menuh a
+	{
+	text-align: left;
+	display:block;
+	white-space:nowrap;
+	margin:0;
+	padding: 0.3em;
+		background: url(images/templatemo_menu.png) repeat-x;
+
+	}
+	
+#menuh a:link, #menuh a:visited, #menuh a:active	/* menu at rest */
+	{
+	background: url(images/templatemo_menu.png) repeat-x;
+	text-decoration:none;
+	}
+	
+#menuh a:hover						/* menu on mouse-over  */
+	{
+		background: #3d107b;
+	text-decoration:none;
+	}	
+	
+#menuh a.top_parent, #menuh a.top_parent:hover  /* attaches down-arrow to all top-parents */
+	{
+	background-image: url(navdown_white.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	
+	}
+	
+#menuh a.parent, #menuh a.parent:hover 	/* attaches side-arrow to all parents */
+	{
+	background-image: url(nav_white.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+
+	}
+#menuh .link a:link, #menuh .link a:visited, #menuh .link a:active	/* menu at rest */
+	{
+	width:100px;
+	background: #3d107b;
+	text-decoration:none;
+	color:#FFFFFF;		}
+#menuh .link a:hover/* menu at rest */
+	{
+	width:100px;
+	background: #d1c7fa;
+	text-decoration:none;
+	color:#3d107b;		}
+
+#menuh ul
+	{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	/* NOTE: For adjustable menu boxes you can comment out the above width rule.
+	However, you will have to add padding in the "#menh a" rule so that the menu boxes
+	will have space on either side of the text -- try it */
+	}
+
+#menuh li
+	{
+	position:relative;
+	min-height: 1px;		/* Sophie Dennis contribution for IE7 */
+	vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
+	}
+
+#menuh ul ul
+	{
+	position:absolute;
+	z-index:500;
+	top:auto;
+	display:none;
+	padding: 1em;
+	margin:-1em 0 0 -1em;
+	}
+
+#menuh ul ul ul
+	{
+	top:0;
+	left:100%;
+	}
+
+div#menuh li:hover
+	{
+	cursor:pointer;
+	z-index:100;
+	}
+
+div#menuh li:hover ul ul,
+div#menuh li li:hover ul ul,
+div#menuh li li li:hover ul ul,
+div#menuh li li li li:hover ul ul
+{display:none;}
+
+div#menuh li:hover ul,
+div#menuh li li:hover ul,
+div#menuh li li li:hover ul,
+div#menuh li li li li:hover ul
+{display:block;}
+
+/* End CSS Drop Down Menu */
