@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Multi-series convert2FusionCharts Function Sample | jQuery Plugin for FusionCharts Free</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="../JS/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="../JS/jquery.fusioncharts.js"></script>
+</head>
+<body>
+	<center>
+
+	<div id="myChartContainer" align="center">Loading FusionCharts!</div>
+	<table id="myHTMLTable" border="1" align="center">
+		<tr> <th>&nbsp;</th> <th>2005</th> <th>2006</th> <th>2007</th> </tr>
+		<tr> <td>Product 1</td> <td>23</td> <td>34</td> <td>45</td> </tr>
+		<tr> <td>Product 2</td> <td>23</td> <td>34</td> <td>45</td> </tr>
+	</table>
+	<script type="text/javascript">
+	$('#myHTMLTable').convertToFusionCharts({
+		swfPath: "../Charts/",
+		type: "MSColumn3D",
+		data: "#myHTMLTable",
+		dataFormat:"HTMLTable"
+	});
+	</script>
+
+	</center>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>className Sample | jQuery Plugin For FusionCharts Free</title>
+<script type="text/javascript" src="../JS/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="../JS/jquery.fusioncharts.js"></script>
+<style type="text/css">
+.borderedChart {
+	border-color: 5C005C;
+	border-width: 3px;
+	border-style: dashed;
+}
+</style>
+</head>
+<body>
+	<center>
+
+	<div id="myChartContainer" align="center">Loading FusionCharts!</div>
+	<script type="text/javascript">
+	$('#myChartContainer').insertFusionCharts({
+		swfPath: "../Charts/",
+		type: "Bar2D",
+		data: 'fruit-production.xml',
+		dataFormat: "URIData",
+		width: "400",
+		height: "300",
+		className: "borderedChart"
+	});
+	</script>
+
+	</center>
+</body>
+</html>

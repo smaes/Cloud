@@ -1,0 +1,25 @@
+﻿================================================================================
+jQuery Plugin for 'FusionCharts Free'
+http://www.fusioncharts.com/jquery/
+--------------------------------------------------------------------------------
+
+Copyright (c) 2010 InfoSoft Global (P) Ltd. 
+http://www.infosoftglobal.com/
+
+
+================================================================================
+Version:    1.0.0-108-b2 (Beta)
+Released:   31-Mar-2010
+
+* Fixed bug with HTMLTable datahandler extension where in Internet Explorer, the
+  first label or legend was excluded.
+
+--------------------------------------------------------------------------------
+Version:    1.0.0-94-b1 (Beta)
+Released:   18-Mar-2010
+
+* First Public Beta Release
+* Limited support for FusionCharts v3
+
+________________________________________________________________________________
+================================================================================

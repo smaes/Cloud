@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>jQuery Plugin for FusionCharts Free</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="jQuery Plugin and JavaScript Library for FusionCharts Free"/>
+
+<script type="text/javascript" src="JS/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="JS/jquery.fusioncharts.js"></script>
+<script type="text/javascript">
+$.FusionCharts.config.extend({
+    swfPath: 'Charts/'
+});
+
+var isPluginIncluded = false,
+    isjQueryIncluded = false;
+
+if($ !== undefined) {
+    $(function() {
+        isPluginIncluded = ($.FusionCharts !== undefined) && (__fc !== undefined);
+    });
+    isjQueryIncluded = true;
+}
+
+function updateDiagnosticsStatus() {
+    var o = document.getElementById('diagnostics');
+    o.innerHTML += "jQuery Included: " + isjQueryIncluded + ",<br />FusionCharts jQuery Plugin Included: " + isPluginIncluded;
+    if(isPluginIncluded) {
+        o.innerHTML += "<br />&nbsp;<br />";
+        o.innerHTML += "FusionCharts jQuery Plugin Version: " + $.FusionCharts.version.toString();
+        
+    }
+}
+</script>
+</head>
+<body onLoad="updateDiagnosticsStatus()">
+	<center>
+
+    <h1><a href="http://www.fusioncharts.com/jquery/" title="&apos;FusionCharts Free&apos; jQuery plugin website">jQuery Plugin for FusionCharts Free</a></h1>
+    <p><small>Version 1.0.0 beta2 (build 108)</small></p>
+    <p><a href="Documentation/jQuery Plugin for FusionCharts Free - 1.0.0b Documentation.pdf" target="_blank">Documentation</a>  | <a href="Examples/">Examples</a>  |  <a href="readme.txt">Readme</a>  |  <a href="release.txt">Release Notes</a>  |  <a href="license.txt">License</a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p id="diagnostics"></p>
+    <noscript>Your browser needs to have JavaScript support!</noscript>
+	</center>
+</body>
+</html>

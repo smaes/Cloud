@@ -1,0 +1,43 @@
+﻿================================================================================
+jQuery Plugin for 'FusionCharts Free'
+http://www.fusioncharts.com/jquery/
+--------------------------------------------------------------------------------
+
+Copyright (c) 2010 InfoSoft Global (P) Ltd. 
+http://www.infosoftglobal.com/
+
+Dual licensed under the MIT (X11) and GNU GPL licenses.
+
+This is a BETA release of jQuery Plugin for FusionCharts Free. It is intended
+for evaluation and testing purposes only. Though you are free to use this
+software in any environment that is applicable, you are advised not to use the
+BETA software on production platforms owing to the inherent nature of BETA
+releases.
+
+================================================================================
+BETA Software Notice
+--------------------------------------------------------------------------------
+
+THIS BETA SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE BETA SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Production use includes, without limitation, using the BETA Software on
+commercial websites; providing, or offering to provide, any service using the
+BETA Software; using the BETA Software to provide web design or other services
+to commercial and non- commercial websites; receiving compensation from others
+for copies or modified copies of the BETA Software; hosting, or offering to
+host, the BETA Software, on any basis; receiving compensation for any service
+that uses the BETA Software, including support services. InfoSoft Global (P) Ltd
+shall have the right to determine, in its sole discretion, whether a use is a
+commercial use or non-personal use. InfoSoft Global (P) Ltd owns all rights,
+title and interest in and to the BETA Software. All rights not expressly granted
+to you are retained by InfoSoft Global (P) Ltd. Your use shall be in accordance
+with applicable restrictions concerning privacy and intellectual property
+rights.
+
+________________________________________________________________________________
+================================================================================

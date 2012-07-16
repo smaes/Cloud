@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>XMLData Sample | jQuery Plugin for FusionCharts Free</title>
+<script type="text/javascript" src="../JS/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="../JS/jquery.fusioncharts.js"></script>
+</head>
+
+<body>
+	<center>
+
+	<div id="myChartContainer">Loading FusionCharts!</div>
+	<script type="text/javascript">
+	$('#myChartContainer').insertFusionCharts({
+		swfPath: "../Charts/",
+		type: "Pie3D",
+		data: "<graph caption='Pie Chart' decimalPrecision='0' " +
+			  "showPercentageValues='0' showNames='1' " +
+			  "numberPrefix='$' showValues='1' showPercentageInLabel='0' " +
+			  "pieYScale='45' pieBorderAlpha='40' pieFillAlpha='70'" +
+			  "pieSliceDepth='15' pieRadius='100'>" +
+			  "<set value='25' name='Item A' color='6666FF' />" +
+			  "<set value='17' name='Item B' color='AD33FF' />" +
+			  "<set value='23' name='Item C' color='19A3D1' />" +
+			  "<set value='65' name='Item D' color='FFCC66' /></graph>",
+		dataFormat: "XMLData",
+		width: "400",
+		height: "300"
+	});
+	</script>
+
+	</center>
+</body>
+</html>

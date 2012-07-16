@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Chart ID Sample | jQuery Plugin for FusionCharts Free</title>
+<script type="text/javascript" src="../JS/jquery-1.4.2.js"></script>
+<script type="text/javascript" src="../JS/jquery.fusioncharts.js"></script>
+<script type="text/javascript" >
+var hideChart = function(){
+	$('#chart2').hide(); // This will hide the chart with Id 'chart2'
+	$('#hideButton').hide();
+}
+</script>
+</head>
+<body>
+	<center>
+
+	<span id="myChart1Container">Loading FusionCharts!</span>
+	<span id="myChart2Container">Loading FusionCharts!</span>
+	<div><input id='hideButton' type='button' value='Hide Pie Chart' onClick='hideChart();' title='Click to hide the second chart' /></div>
+	
+	<script type="text/javascript">
+	$('#myChart1Container').insertFusionCharts({
+		swfPath: "../Charts/",
+		id: "chart1",
+		type: "Column3D",
+		data: "annual-sales-summary.xml",
+		dataFormat: "URIData"
+	});
+	$('#myChart2Container').insertFusionCharts({
+		swfPath: "../Charts/",
+		id: "chart2",
+		type: "Pie2D",
+		data: "annual-sales-summary.xml",
+		dataFormat: "URIData"
+	});
+	</script>
+
+	</center>
+</body>
+</html>

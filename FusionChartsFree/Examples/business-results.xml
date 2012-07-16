@@ -1,0 +1,23 @@
+<graph caption='Business Results 2006' xAxisName='Month' yAxisName='Revenue' showValues='0'
+  numberPrefix='$' decimalPrecision='0' bgcolor='F3f3f3' bgAlpha='70' showColumnShadow='1'
+  divlinecolor='c5c5c5' divLineAlpha='60' showAlternateHGridColor='1' alternateHGridColor='f8f8f8'
+  alternateHGridAlpha='60' >
+
+   <set name='Jan' value='27400' color='AFD8F8'/>
+   <set name='Feb' value='29800' color='F6BD0F' />
+   <set name='Mar' value='25800' color='8BBA00'/>
+   <set name='Apr' value='26800' color='FF8E46'/>
+   <set name='May' value='29600' color='008E8E' />
+   <set name='Jun' value='32600' color='D64646'/>
+   <set name='Jul' value='31800' color='8E468E'/>
+   <set name='Aug' value='36700' color='588526'/>
+   <set name='Sep' value='29700' color='B3AA00'/>
+   <set name='Oct' value='31900' color='008ED6'/>
+   <set name='Nov' value='34800' color='9D080D'/>
+   <set name='Dec' value='24800' color='A186BE' />
+
+ <trendlines>
+   <line startValue='26000' color='91C728' displayValue='Target' showOnTop='1'/>
+ </trendlines>
+
+</graph>

@@ -1,0 +1,23 @@
+<graph bgColor='F1f1f1' caption='Global Export' subcaption='In Millions Tonnes' xaxisname='Continent' yaxisname='Export'  showLegend='1' showColumnShadow='1' yAxisMaxValue='70'>
+    <categories >
+        <category name='N. America' />
+        <category name='Asia' />
+        <category name='Europe' />
+        <category name='Australia' />
+        <category name='Africa' />
+    </categories>
+    <dataset seriesname='Rice' color='CC3399' alpha='100'>
+        <set value='27' />
+        <set value='26' />
+        <set value='29' />
+        <set value='31' />
+        <set value='34' />
+    </dataset>
+    <dataset seriesname='Wheat' color='A66EDD' alpha='100'>
+        <set value='41' />
+        <set value='28' />
+        <set value='19' />
+        <set value='13' />
+        <set value='20' />
+    </dataset>
+</graph>

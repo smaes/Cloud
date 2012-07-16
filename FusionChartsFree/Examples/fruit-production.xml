@@ -1,0 +1,7 @@
+<graph caption='Fruit Production for March' subCaption='(in Millions)' yaxisname='Fruit' xaxisname='Quantity' showAlternateVGridColor='1' alternateVGridAlpha='10' alternateVGridColor='AFD8F8' numDivLines='4' decimalPrecision='0' canvasBorderThickness='1' canvasBorderColor='114B78' baseFontColor='114B78' hoverCapBorderColor='114B78' hoverCapBgColor='E7EFF6'> 
+    <set name='Orange' value='23' color='AFD8F8' alpha='70'/> 
+    <set name='Apple' value='12' color='F6BD0F' alpha='70'/> 
+    <set name='Banana' value='17' color='8BBA00' alpha='70'/> 
+    <set name='Mango' value='14' color='A66EDD' alpha='70'/> 
+    <set name='Litchi' value='12' color='F984A1' alpha='70'/> 
+</graph>
